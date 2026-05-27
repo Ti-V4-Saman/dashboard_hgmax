@@ -1655,7 +1655,7 @@ export default function App() {
       <aside className={`bg-white dark:bg-slate-900 border-r border-slate-200 transition-all duration-300 flex flex-col ${sidebarOpen ? 'w-64' : 'w-0 -translate-x-full lg:w-20 lg:translate-x-0'}`}>
         <div className="p-6 flex items-center gap-3">
           <div className="bg-blue-600 p-2 rounded-lg shrink-0 shadow-lg"><Trophy className="h-6 w-6 text-white" /></div>
-          {sidebarOpen && <h1 className="font-bold text-xl uppercase tracking-tighter">Dash Felipe</h1>}
+          {sidebarOpen && <h1 className="font-bold text-xl uppercase tracking-tighter">Dash HGMAX</h1>}
         </div>
         <div className="flex-1 px-4 space-y-2">
           <button onClick={() => setActiveTab('overview')} className={`w-full flex items-center px-3 py-2.5 rounded-lg text-sm font-semibold ${activeTab === 'overview' ? 'bg-blue-50 text-blue-600' : 'text-slate-500 hover:bg-slate-50'}`}><LayoutDashboard className="h-4 w-4 mr-3" />{sidebarOpen && "Visão Geral"}</button>
@@ -1764,7 +1764,7 @@ export default function App() {
           {activeTab === 'commercial' && <CommercialAnalysis adsData={globalKpis.filteredAds} crmData={globalKpis.fullFilteredCrm} realCommercialData={realCommercialData} />}
           
           <footer className="py-8 text-center border-t border-slate-200">
-            <p className="text-[10px] text-slate-400 font-medium uppercase tracking-widest">Dash Felipe v6.1 • © 2026</p>
+            <p className="text-[10px] text-slate-400 font-medium uppercase tracking-widest">Dash HGMAX v6.1 • © 2026</p>
           </footer>
         </div>
       </main>
